@@ -1,0 +1,21 @@
+.menu-item:hover {
+  background-color: #e2e6eb;
+}
+.recent .recent-entry:hover {
+  background-color: #e2e6eb;
+}
+.hidden {
+  display: none;
+}
+.k {
+  margin-top: 10px;
+}
+.m {
+  padding: 10px;
+}
+.new-chat {
+  margin-top: 10px;
+}
+.menu-item:hover {
+  background-color: #e2e6eb;
+}

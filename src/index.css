@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
+
+.main-container {
+  min-height: 100vh;
+}
+html,
+body {
+  transition: background-color 0.3s, color 0.3s;
+}

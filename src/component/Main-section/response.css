@@ -1,0 +1,30 @@
+.response::-webkit-scrollbar {
+  display: none;
+}
+.response {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.loader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.loader hr {
+  border: none;
+  background-color: white;
+  background: linear-gradient(to right, skyblue, white, skyblue);
+  background-size: 750px 5px;
+  width: 68vw;
+  height: 5px;
+  animation: loader 3s infinite;
+}
+@keyframes loader {
+  from {
+    background-position: -800px 0px;
+  }
+  to {
+    background-position: 800px 0px;
+  }
+}
